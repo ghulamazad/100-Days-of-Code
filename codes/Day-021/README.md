@@ -1,1 +1,0 @@
-[Go To Day 21 Project Snake Game](https://github.com/MdGhulamAzadAnsari/Snake-Game)
