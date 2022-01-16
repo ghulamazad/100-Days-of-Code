@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/css/main.css">
+  </head>
+  <body>
+  <div class="wrapper">
+    <div class="top-navbar">
+      <h1>My Blog</h1>
+    </div>
+      <div class="post-wrapper">
+        <div class="content">
+            <h1>{{ post.title }}</h1>
+            <div class="info">
+              <p>{{ post.subtitle }}</p>
+              <p>{{ post.body }}</p>
+            </div>
+          </div>
+      </div>
+    <div class="footer">
+      <a href="https://github.com/MdGhulamAzadAnsari" target="_blank">
+        <span class="dialogue">Made with ❤, ♪ and Coffee!</span>
+      </a>
+    </div>
+  </div>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MD.GHULAM AZAD ANSARI</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="static/css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-navbar">
+        <h1>My Blog</h1>
+      </div>
+
+      <div class="post-wrapper">
+        {% for post in all_posts %}
+        <div class="content">
+          <h1>{{ post.title }}</h1>
+          <div class="info">
+            <p>{{ post.subtitle }}</p>
+          </div>
+          <a href="{{ url_for('show_post', index=post.id) }}" class="read-more"
+            >Read more</a
+          >
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="footer">
+        <a href="https://github.com/MdGhulamAzadAnsari" target="_blank">
+          <span class="dialogue">Made with ❤, ♪ and Coffee!</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
