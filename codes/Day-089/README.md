@@ -1,3 +1,3 @@
-# Disappearing Text Writing App
+# Convert PDF to Audiobook
 
-A writing app where if you stop typing, your work will disappear.
+Write a Python script that takes a PDF file and converts it into speech.
